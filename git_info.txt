@@ -1,0 +1,45 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+
+PS D:\FORM\FORMATION\PHP\leb formation> git init
+Initialized empty Git repository in D:/FORM/FORMATION/PHP/leb formation/.git/
+PS D:\FORM\FORMATION\PHP\leb formation> git add .
+PS D:\FORM\FORMATION\PHP\leb formation> git status
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   header.php
+        new file:   index.php
+
+PS D:\FORM\FORMATION\PHP\leb formation> git commit -m "first commit"
+[master (root-commit) 260399d] first commit
+ 2 files changed, 63 insertions(+)
+ create mode 100644 header.php
+ create mode 100644 index.php
+PS D:\FORM\FORMATION\PHP\leb formation> git remote add origin https://github.com/ymelki/formation_php.git
+PS D:\FORM\FORMATION\PHP\leb formation> git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1018 bytes | 203.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ymelki/formation_php.git
+ * [new branch]      master -> master
+PS D:\FORM\FORMATION\PHP\leb formation> git add . 
+PS D:\FORM\FORMATION\PHP\leb formation> git commit -m "first commit"
+[master 3b8c96e] first commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS D:\FORM\FORMATION\PHP\leb formation> git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 328 bytes | 109.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/ymelki/formation_php.git
+   260399d..3b8c96e  master -> master
+PS D:\FORM\FORMATION\PHP\leb formation> 

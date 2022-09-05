@@ -47,6 +47,6 @@ include "header.php";
 
      ?>
 
-MON FOOTER ....
+MON FOOTER NUMERO 2....
 </body>
 </html>

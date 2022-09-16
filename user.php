@@ -9,6 +9,8 @@
 <body><br />LISTE DES MAIL DES USERS
     <?php
 
+    //https://phpdelusions.net/pdo_examples/select
+
     // liste des users 
 
 
@@ -35,6 +37,12 @@
 
 
     // 3. On les affiche
+
+    // EXO : Lorsqu on clique sur un des user => on va avoir une nouvelle page 
+    // qui affiche la page utilisateur correspondante
+
+    // une nouvelle page PHP qui va effectivement recevoir des donnée POST / GET
+    // TU DOIS AFFICHER LA BASE TOUTE LES INFOS SUR LE USER 
 
     ?>
 </body>

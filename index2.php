@@ -25,6 +25,25 @@ function resultSomme($paramNb) {
     return $tab[count($tab)-1];
 
 
+
+
+}
+
+
+
+function resultSomme_s($paramNb) {
+    $info=0;   //initialiser une variable stockant l evolution de i
+
+    for($i=1; $i<=$paramNb  ; $i++) {
+
+        $info=$i + $info;
+
+
+    }
+
+    return $info;
+
+
 }
 
 echo resultSomme(5);

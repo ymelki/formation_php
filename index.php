@@ -185,7 +185,9 @@ function afficher()  {
  // 3.  CREER UNE FONCTION QUI PREND EN PARAMETRE UN nombre qui retorune le nombre
   // 3.  CREER UNE FONCTION QUI PREND EN PARAMETRE UN nombre qui affiche si le nombre est > 18 ca ecrit majeur si non mineur
    // 3.  CREER UNE FONCTION QUI PREND EN PARAMETRE UN nombre qui affiche si le nombre est > 18 ca renvoie true ou false
- afficher();
+ test4("testesets");
+ 
+   afficher();
 
 
 
